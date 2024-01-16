@@ -1,8 +1,8 @@
 # zus-parcing-test
 
-Applicatin requires: 
+Application requires: 
 
-Redis, easiest ways to install is on Docker:
+Redis, the easiest ways to install is on Docker:
 https://redis.io/docs/install/install-stack/docker/
 
 
@@ -16,5 +16,5 @@ docker run -d -p 6379:6379 redis
 backend:
 node index.js
 
-fronrend:
+frontend:
 launch index.html in any browser
