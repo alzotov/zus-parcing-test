@@ -1,6 +1,6 @@
 # zus-parcing-test
 
-Applicatin requires 
+Applicatin requires: 
 
 Redis, easiest ways to install is on Docker:
 https://redis.io/docs/install/install-stack/docker/
