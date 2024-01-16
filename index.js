@@ -21,13 +21,13 @@ const redisSet = "zusm"
 var app = express();
 app.use(cors);
 
-const PORT = 8080;
+const PORT = 3000;
 
 app.get("/outlets/list", async(req, res, next) => {
     //let rz = await redis.zrange(redisSet,0,-1)
     let rz = await redis.georadius(redisSet,0,0,22000,'km','WITHCOORD')
     console.log({rz});
-    await res.json(rz);
+    res.json(rz);
 });
 
 app.get('/', (req, res) => {
