@@ -48,39 +48,7 @@ async function parse(url,outlets) {
                     break;
                 }        
         }
-
-        // .each(async function (i) {
-        //     //.first(async function (i) {
-        //         let text = $(e).contents().text().trim();
-        //         switch (i % 4) {
-        //             case 0:
-        //                 name = text;
-        //                 break;
-        //             case 1:
-        //                 break;
-        //             case 2:
-        //                 address = text.substring(0, text.indexOf("\n"));;
-        //                 break;
-        //             case 3:
-        //                 if (text === 'Direction') {
-        //                     console.log(`${(i-3)/4}:${address}`);                        
-        //                     //let search = address;
-        //                     let geoLocation = await fetchGeoLocation(address);
-        //                         // search = search.substring(search.indexOf(',')+1,search.length).trim()
-        //                         // console.log(`${(i-3)/4}:${search}`);                        
-        //                         // search = search.substring(search.indexOf(',')+1,search.length).trim()
-        //                         // console.log(`${(i-3)/4}:${search}`);                        
-        //                         // geoLocation = await addOsmLocation(search);
-        //                     //}
-        //                     let outlet = { name, address, geoLocation };
-        //                     console.log({outlet})
-        //                     outlets.push(outlet);
-        //                     ++countTotal; console.log({countTotal});
-        //                 }
-        //                 break;
-        //         }
-        //     })
-        // ) 
+        
         console.log({outlets})
         return true;
 

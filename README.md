@@ -9,7 +9,7 @@ https://redis.io/docs/install/install-stack/docker/
 
 Run:
  - Redis on Docker:
-docker run -d -p 6379:6379 Redis
+docker run -d -p 6379:6379 redis
     6379 - default port, let's stick to it 
 
  - backend:
