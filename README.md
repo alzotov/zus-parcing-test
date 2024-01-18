@@ -5,7 +5,7 @@ Application requires:
  - Redis, the easiest way to install is on Docker:
 https://redis.io/docs/install/install-stack/docker/
 
- - Node.js
+ - Node.js (let's not forget to run: npm install in project folder)
 
 Run:
  - Redis on Docker:
